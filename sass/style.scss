@@ -1,3 +1,5 @@
+
+
 .at_top{
     background-image: url("https://i.postimg.cc/4x5rcwpz/tree-736885-1280-2.jpg");
     background-size: cover; /* This will make sure the background image covers the entire section */
@@ -23,12 +25,15 @@
     font-family: 'Dancing Script', cursive;
     color: gold;
     padding: 4%;
-    margin-top: 30%;
-    padding: 20%;
     vertical-align:middle;
     justify-content: center;
+    text-align: center;
 }
 
+.big-font{
+    font-size: 500%;
+    margin: 0;
+}
 
 .in_the_middle{
     position: absolute;
@@ -44,6 +49,7 @@
     color: black;
     vertical-align:middle;
     justify-content: center;
+    text-align: center;
     padding: 10%;
 }
 
@@ -53,19 +59,20 @@
 
 .services {
     text-align: center; /* Center-align the content within the section */
+    width: 100%;
 }
 
 .services .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .services .col {
     max-width: 600px; /* Optional: Set a maximum width for the column */
     width: 100%;
-    margin: auto; /* Center-align the column within the container */
+    // margin: auto; /* Center-align the column within the container */
 }
 
 .gray-font{
@@ -74,4 +81,14 @@
 
 i{
     font-size: xx-large;
+    color: gold;
+    border: 4px;
+    border-radius: 100%;
+}
+
+.circle-icon {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid gold; /* Adjust the color as needed */
+    padding: 10px; /* Adjust the padding as needed */
 }
