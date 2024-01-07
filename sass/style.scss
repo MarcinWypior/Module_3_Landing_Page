@@ -53,13 +53,10 @@
     padding: 10%;
 }
 
-.services{
-    position: relative;
-}
-
 .services {
     text-align: center; /* Center-align the content within the section */
     width: 100%;
+    position: relative;
 }
 
 .services .container {
@@ -91,4 +88,40 @@ i{
     border-radius: 50%;
     border: 2px solid gold; /* Adjust the color as needed */
     padding: 10px; /* Adjust the padding as needed */
+}
+
+.our-portfolio{
+    position: relative;
+}
+
+.our-portfolio{
+    text-align: center; /* Center-align the content within the section */
+    width: 100%;
+}
+
+.our-portfolio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.our-portfolio .col {
+    max-width: 600px; /* Optional: Set a maximum width for the column */
+    width: 100%;
+    // margin: auto; /* Center-align the column within the container */
+}
+
+.container .row span{
+    display: block;
+}
+
+.container .row img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.some-margin{
+    margin-bottom: 25px;
 }
