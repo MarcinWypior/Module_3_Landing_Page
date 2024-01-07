@@ -57,6 +57,7 @@
     text-align: center; /* Center-align the content within the section */
     width: 100%;
     position: relative;
+    margin-bottom: 5%;
 }
 
 .services .container {
@@ -76,7 +77,7 @@
     color: gray;
 }
 
-i{
+.services i{
     font-size: xx-large;
     color: gold;
     border: 4px;
@@ -122,6 +123,30 @@ i{
     object-fit: cover;
 }
 
+.bold{
+    margin-top: 3%;
+    font-weight: bold;
+}
+
 .some-margin{
     margin-bottom: 25px;
+}
+
+.footer{
+    margin-top: 20%;
+}
+
+.footer i{
+    font-size: xx-large;
+    margin: 4%;
+}
+
+.box{
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.padding-top{
+    padding-top: 3%;
 }
